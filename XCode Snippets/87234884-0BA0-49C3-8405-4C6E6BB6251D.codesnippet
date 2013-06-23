@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snip-timer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Timer
+
+@property (nonatomic, strong) NSTimer* timer;
+
+- (void)startTimer
+{
+    [self stopTimer];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval: &lt;#INTERVAL#&gt; target:self selector:@selector(fireTimer) userInfo:nil repeats:&lt;#NO#&gt;];
+}
+
+- (void)stopTimer
+{
+    [self.timer invalidate];
+    self.timer = nil;
+}
+
+- (void)resetTimer
+{
+    [self startTimer];
+}
+
+- (void)fireTimer
+{
+    XLLog(@"firing");
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>87234884-0BA0-49C3-8405-4C6E6BB6251D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>snip-timer</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Timer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

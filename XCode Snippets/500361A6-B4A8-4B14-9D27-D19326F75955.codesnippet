@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snip-animate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    [UIView animateWithDuration: &lt;#ANIMATION_SPEED#&gt;
+                          delay: &lt;#0#&gt;
+                        options: UIViewAnimationOption&lt;#BeginFromCurrentState#&gt;
+                     animations: ^{
+                         &lt;#animations#&gt;
+                     } completion:^(BOOL comp) {
+                         &lt;#nil#&gt;
+                     }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>500361A6-B4A8-4B14-9D27-D19326F75955</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>snip-animate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Animate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

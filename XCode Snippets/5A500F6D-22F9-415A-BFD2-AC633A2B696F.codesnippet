@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snip-postnotification</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#kNotification#&gt; object:&lt;#nil#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5A500F6D-22F9-415A-BFD2-AC633A2B696F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetRelativePriority</key>
+	<integer>1</integer>
+	<key>IDECodeSnippetSummary</key>
+	<string>snip-postnotification</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Post Notification</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

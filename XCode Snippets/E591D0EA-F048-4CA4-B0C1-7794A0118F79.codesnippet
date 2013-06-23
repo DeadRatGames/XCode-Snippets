@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snip-shadow</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>self.layer.shadowOffset = CGSizeMake(0, 1);
+self.layer.shadowColor = [UIColor blackColor].CGColor;
+self.layer.shadowRadius = 6;
+self.layer.shadowOpacity = 0.8;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E591D0EA-F048-4CA4-B0C1-7794A0118F79</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetRelativePriority</key>
+	<integer>1</integer>
+	<key>IDECodeSnippetSummary</key>
+	<string>snip-shadow</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Shadow</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

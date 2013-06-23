@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snip-postprocessing</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)nibPostProcessing
+{
+    // This function intended to be called immediately after loading a nib
+    // Implements properties that cannot be set in Interface Builder
+    
+    // Correctly implement resizable images
+    [self.button setBackgroundImage:[UIImage imageResizableNamed:@"&lt;#stretchable_image_normal#&gt;"] forState:UIControlStateNormal];
+    [self.button setBackgroundImage:[UIImage imageResizableNamed:@"&lt;#stretchable_image_highlighted#&gt;"] forState:UIControlStateHighlighted];
+
+    // Ensure buttons are exclusive touch
+    [self.button setExclusiveTouch: YES];
+    
+    // Add pattern images
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"&lt;#pattern_image#&gt;"]];
+    
+    // Add shadows
+    viewContainer.layer.shadowColor = [UIColor blackColor].CGColor;
+    viewContainer.layer.shadowRadius = 6.0f];
+    viewContainer.layer.shadowOpacity = 1.0f;
+    viewContainer.layer.cornerRadius = 4.0f;
+    [viewContainer setShadowPath: viewContainer.bounds];
+    
+    // Progress Bar images
+    [self.progress setTrackImage:[UIImage imageNamed:@"demopitch_track"]];
+    [self.progress setProgressImage:[UIImage imageNamed:@"demopitch_progress"]];
+
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3E8F2002-A18B-4E8C-9E89-78D5100FC20A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>snip-postprocessing</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Nib Post Processing</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

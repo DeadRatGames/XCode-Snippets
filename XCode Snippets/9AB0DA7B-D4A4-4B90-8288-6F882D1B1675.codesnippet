@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>snip-gradient</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIColor* colorTransBlack      = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha: 0.3];
+UIColor* colorClear = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha: 0.0];
+
+CAGradientLayer* topGrad = [CAGradientLayer layer];
+topGrad.frame = rect(0,0, gradients_.bounds.size.width, 10);
+topGrad.colors = [NSArray arrayWithObjects:(id)[colorTransBlack CGColor], (id)[colorClear CGColor], nil];
+[gradients_.layer addSublayer:topGrad];
+
+CAGradientLayer* bottomGrad = [CAGradientLayer layer];
+bottomGrad.frame = rect(0,gradients_.bounds.size.height-10, gradients_.bounds.size.width, 10);
+bottomGrad.colors = [NSArray arrayWithObjects:(id)[colorClear CGColor], (id)[colorTransBlack CGColor], nil];
+[gradients_.layer addSublayer:bottomGrad];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9AB0DA7B-D4A4-4B90-8288-6F882D1B1675</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>snip-gradient</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Gradient</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
