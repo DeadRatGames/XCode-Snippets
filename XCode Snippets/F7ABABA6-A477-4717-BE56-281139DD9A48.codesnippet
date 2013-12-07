@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cgsizemake</string>
+	<string>c</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CGSizeMake(&lt;#width#&gt;, &lt;#height#&gt;)</string>
+	<string>CGRect</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F270BF8-4707-48FC-B9D8-45E25E692DE1</string>
+	<string>F7ABABA6-A477-4717-BE56-281139DD9A48</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cgsizemake</string>
+	<string>CGRect</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CGSizeMake</string>
+	<string>CGRect</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

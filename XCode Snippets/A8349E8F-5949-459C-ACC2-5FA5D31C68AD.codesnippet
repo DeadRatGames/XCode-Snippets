@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cgsizemake</string>
+	<string>snip-addobs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CGSizeMake(&lt;#width#&gt;, &lt;#height#&gt;)</string>
+	<string>[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notification&lt;#name#&gt;:)name:kNotificationReloadHomeViewContent object:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F270BF8-4707-48FC-B9D8-45E25E692DE1</string>
+	<string>A8349E8F-5949-459C-ACC2-5FA5D31C68AD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cgsizemake</string>
+	<string>snip-addobs</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CGSizeMake</string>
+	<string>Add Observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

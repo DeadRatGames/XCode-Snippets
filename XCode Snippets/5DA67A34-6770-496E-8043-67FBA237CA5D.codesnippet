@@ -6,7 +6,7 @@
 	<string>cgpointmake</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>CGPointMake(&lt;#0#&gt;, &lt;#0#&gt;)</string>

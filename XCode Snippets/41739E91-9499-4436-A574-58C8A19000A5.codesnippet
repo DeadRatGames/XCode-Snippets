@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cgsizemake</string>
+	<string>fun1</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CGSizeMake(&lt;#width#&gt;, &lt;#height#&gt;)</string>
+	<string>- (&lt;#void#&gt;)&lt;#functionName#&gt;:(&lt;#BOOL#&gt;)&lt;#argument1#&gt;
+{
+    &lt;#function_body#&gt;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F270BF8-4707-48FC-B9D8-45E25E692DE1</string>
+	<string>41739E91-9499-4436-A574-58C8A19000A5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cgsizemake</string>
+	<string>snip-function</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CGSizeMake</string>
+	<string>Function</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

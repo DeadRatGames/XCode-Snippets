@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cgsizemake</string>
+	<string>r</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CGSizeMake(&lt;#width#&gt;, &lt;#height#&gt;)</string>
+	<string>return</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F270BF8-4707-48FC-B9D8-45E25E692DE1</string>
+	<string>DED1B950-6A9B-46D5-A637-8369CA07F987</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cgsizemake</string>
+	<string>return</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CGSizeMake</string>
+	<string>return</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
